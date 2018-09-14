@@ -3211,6 +3211,11 @@ input[type="button"].btn-block {
     margin-top: -30px;
     left: 100%;
 }
+
+.dropdown-menu .show > .dropdown-toggle::after{
+    transform: rotate(-90deg);
+}
+
 @media (max-width: 992px) {
     .dropdown-menu{
         width: 50%;
