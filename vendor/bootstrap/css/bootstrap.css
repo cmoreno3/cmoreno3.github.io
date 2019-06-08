@@ -4014,7 +4014,18 @@ input[type="button"].btn-block {
   float: none;
 }
 
-.navbar-nav li:hover > ul.dropdown-menu {
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
+
+/*.navbar-nav li:hover > ul.dropdown-menu {
     display: block;
 }
 .dropdown-submenu {
@@ -4027,11 +4038,12 @@ input[type="button"].btn-block {
 }
 
 /* rotate caret on hover */
+/*
 .dropdown-menu > li > a:hover:after {
     text-decoration: underline;
     transform: rotate(-90deg);
 }
-
+*/
 
 .navbar-text {
   display: inline-block;
