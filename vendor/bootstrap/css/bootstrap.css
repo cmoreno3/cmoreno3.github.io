@@ -3229,6 +3229,11 @@ input[type="button"].btn-block {
     margin-top:-6px;
 }
 
+.dropdown-toggle.active-dropdown::after {
+    transform: rotate(-90deg);
+}
+
+
 /*
 
 .dropdown-submenu{
