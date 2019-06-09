@@ -3212,6 +3212,10 @@ input[type="button"].btn-block {
   margin-left: .1rem;
   margin-right: .1rem;
 }
+
+.dropdown-toggle.active-dropdown::after {
+    transform: rotate(-90deg);
+}
 /*
 
 .dropdown-submenu{
