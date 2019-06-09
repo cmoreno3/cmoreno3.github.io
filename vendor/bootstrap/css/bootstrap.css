@@ -3194,7 +3194,7 @@ input[type="button"].btn-block {
 }
 
 /*new stuffs trying submenu hope it works */
-
+/*
 .dropdown-submenu {
   position: relative;
 }
@@ -3216,6 +3216,19 @@ input[type="button"].btn-block {
 .dropdown-toggle.active-dropdown::after {
     transform: rotate(-90deg);
 }
+*/
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+}
+
 /*
 
 .dropdown-submenu{
